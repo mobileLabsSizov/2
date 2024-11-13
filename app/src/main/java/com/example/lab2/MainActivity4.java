@@ -29,8 +29,8 @@ public class MainActivity4 extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        findViewById(R.id.mainButton).setOnClickListener((l) -> {
-            findViewById(R.id.mainButton).setBackgroundResource(R.drawable.button_background1);
+        findViewById(R.id.myButton).setOnClickListener((l) -> {
+            findViewById(R.id.myButton).setBackgroundColor(Color.parseColor("#90EE90"));
         });
     }
 }
